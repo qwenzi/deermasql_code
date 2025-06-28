@@ -103,7 +103,7 @@ CREATE TABLE fin_tm_cid_recharge_cost_dly (
     INDEX idx_store_name(organization_name)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT '天猫自营_巨量引擎CID费用';
 
-
+-- todo
 -- 天猫自营_天猫优品_账单类费用
 drop table if exists fin_tm_tmyp_bills_cost_dly;
 CREATE TABLE fin_tm_tmyp_bills_cost_dly (
@@ -154,6 +154,7 @@ CREATE TABLE fin_tm_tmyp_bills_cost_dly (
     INDEX idx_report_id(report_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT '天猫自营_天猫优品_账单类费用';
 
+-- todo
 -- 天猫自营_天猫超市_账单类费用
 drop table if exists fin_tm_tmcs_bills_cost_dly;
 CREATE TABLE fin_tm_tmcs_bills_cost_dly (
